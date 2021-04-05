@@ -2,27 +2,32 @@
 family = "Iosevka Custom"        # Font menu family name
 spacing = "normal"               # Optional; Values: `normal`, `term`, `fontconfig-mono`, or `fixed`
 serifs = "sans"                  # Optional; Values: `sans` or `slab`
+no-cv-ss = true
 
 ###################################################################################################
 # Configure variants
 
-# Optional; Whether to inherit a `ss##` variant
-[buildPlans.iosevka-custom.variants]
-inherits = "ss01"
-
-# Optional; Configure single character's variant
 [buildPlans.iosevka-custom.variants.design]
-g = 'single-storey'
-
-# Optional; Configure single character's variant for Upright and Oblique; Overrides [design]
-[buildPlans.iosevka-custom.variants.upright]
-i = 'zshaped'
-l = 'zshaped'
-
-# Optional; Configure single character's variant for Italic only; Overrides [design]
-[buildPlans.iosevka-custom.variants.italic]
-i = 'serifed-tailed'
-l = 'serifed-tailed'
+a = "double-storey-toothless-corner"
+b = "toothless-rounded"
+d = "toothless-rounded"
+e = "rounded"
+f = "flat-hook"
+g = "single-storey-earless-rounded-flat-hook"
+i = "serifed-asymmetric"
+j = "flat-hook-serifed"
+l = "serifed-asymmetric"
+p = "earless-corner"
+q = "earless-corner"
+t = "flat-hook"
+u = "toothless-corner"
+y = "cursive-flat-hook"
+zero = "dotted"
+one = "base"
+paren = "large-contour"
+ampersand = "closed"
+at = "threefold"
+lig-ltgteq = "slanted"
 
 # End variant section
 ###################################################################################################
