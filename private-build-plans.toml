@@ -8,7 +8,7 @@ no-cv-ss = true
 # Configure variants
 
 [buildPlans.iosevka-custom.variants.design]
-a = "double-storey-toothless-corner"
+a = "single-storey-earless-corner"
 b = "toothless-rounded"
 d = "toothless-rounded"
 e = "rounded"
